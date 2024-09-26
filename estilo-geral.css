@@ -6,6 +6,7 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.95em;
 }
 
 :root{
@@ -34,6 +35,7 @@ main {
     box-shadow: 2px 2px 2px #00000041;
     transition: width .25s;
 }
+
 section {
     display: block;
 }
@@ -42,19 +44,22 @@ section h1, p {
     text-align: justify;
     padding: 8px 10px 0px 10px;
 }
+
 section h1 {
     text-align: center;
-}
-
-form {
-    display: block;
+    font-size: 1.2em;
 }
 
 #imagem {
     display: block;
+
     background: var(--azul) url(img-form.jpg) center no-repeat;
     background-size: cover;
     height: 170px;
+}
+
+section label {
+    
 }
 
 #usuario {
@@ -66,3 +71,22 @@ form {
     margin: 10px;
 }
 
+form input[type=submit] {
+    display: block;
+
+    background-color: var(--azul);
+    border-radius: 10px;
+    border-color: var(--azul);
+    font-size: 1em;
+    color: white;
+    margin: 15px auto;
+    padding: 5px;
+    width: 90%;
+}
+
+form input[type=submit]:hover {
+    cursor: pointer;
+    background-image: linear-gradient(to right, var(--azul), var(--lilás));
+    transition: ;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.621);
+}
