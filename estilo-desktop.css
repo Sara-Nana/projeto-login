@@ -8,8 +8,6 @@
     main {
         width: 80vw;
         min-height: 280px;
-
-        transition: width .25s;
     }
     section {
         float: right;
@@ -23,6 +21,28 @@
     }
 }
 
-@media screen and (min-width: 770px) and (max-width: 1024px) {
-
+/*TELAS GRANDES*/
+@media screen and (min-width: 1024px) {
+    body {
+        background-image: linear-gradient(to top, var(--azul), var(--lilás));
+        
+    }
+    main {
+        width: 80vw;
+        min-height: 420px;
+        font-size: 1.3em;
+    }
+    h1 {
+        font-size: 33px
+    }
+    section {
+        float: left;
+        width: 55%;
+    }
+    #imagem  {
+        float: right;
+        width: 45%;
+        height: 100%;
+        
+    }
 }

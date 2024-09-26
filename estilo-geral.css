@@ -15,6 +15,7 @@
 
 body {
     background-color: var(--azul);
+    background-attachment: fixed;
     height: 100vh;
 }
 main {
@@ -31,7 +32,7 @@ main {
     width: 70vw;
     border-radius: 20px;
     box-shadow: 2px 2px 2px #00000041;
-    
+    transition: width .25s;
 }
 section {
     display: block;

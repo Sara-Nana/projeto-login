@@ -15,7 +15,6 @@
         </div>
         <section>
                 
-            </div>
             <h1>Login</h1>
             <p>
                 Bem-vindo(a) de volta!
@@ -27,12 +26,12 @@
 
                 <div id="usuario">
                     <label for="iemail"><span class="material-symbols-outlined">person</span></label>
-                    <input type="email" name="email" id="iemail" required>
+                    <input type="email" name="email" id="iemail" size="15"  placeholder="   Digite seu e-mail" autocomplete="email" required>
                 </div>
 
                 <div id="usuario">
                     <label for="isen"><span class="material-symbols-outlined">key</span></label>
-                    <input type="password" name="sen" id="isen" required>
+                    <input type="password" name="sen" id="isen" min="6" maxlength="10" size="15" placeholder="   Digite sua senha" autocomplete="current-password" required>
                 </div>
 
                 <div id="entrar">
@@ -41,7 +40,7 @@
                 </div>
 
                 <div>
-                    <input type="submit" value="Esqueci a senha">
+                    <input type="submit" value="Esqueci a senha" >
                 </div>
             
             </form>
