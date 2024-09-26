@@ -8,11 +8,14 @@
     }
     main {
         width: 80vw;
-        min-height: 310px;
+        min-height: 320px;
     }
     section {
         float: right;
         width: 70%;
+    }
+    div input {
+        transform: translateY(-3px);
     }
     #imagem  {
         float: left;
@@ -40,10 +43,13 @@
         float: left;
         width: 55%;
     }
+    div input {
+        transform: translateY(1px);
+        margin: 6px 0px;
+    }
     #imagem  {
         float: right;
         width: 45%;
         height: 100%;
-        
     }
 }

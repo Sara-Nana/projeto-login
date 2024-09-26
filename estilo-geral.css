@@ -29,7 +29,7 @@ main {
     background-color: #ffffff;
     overflow: hidden;
     min-height: 500px;
-    height: 60vh;
+    height: 70vh;
     width: 70vw;
     border-radius: 20px;
     box-shadow: 2px 2px 2px #00000041;
@@ -47,7 +47,7 @@ section h1, p {
 
 section h1 {
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 #imagem {
@@ -58,27 +58,33 @@ section h1 {
     height: 170px;
 }
 
-section label {
-    
+div input {
+    transform: translateY(-5px);
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    width: calc(99% - 60px);
+}
+.material-symbols-outlined {
+    transform: translateY(6px);
+    font-size: 30px;
+    padding-left: 2px;
 }
 
 #usuario {
     background-color: var(--azul);
     color: white;
-    width: 220px;
+    width: 90%;
     border-radius: 15px;
-    padding: 3px 5px 10px 0px;
     margin: 10px;
 }
 
 form input[type=submit] {
     display: block;
-
-    background-color: var(--azul);
-    border-radius: 10px;
     border-color: var(--azul);
-    font-size: 1em;
-    color: white;
+    border-radius: 10px;
+    font-size: 1.1em;
+    color: rgb(65, 65, 106);
     margin: 15px auto;
     padding: 5px;
     width: 90%;
@@ -86,7 +92,8 @@ form input[type=submit] {
 
 form input[type=submit]:hover {
     cursor: pointer;
-    background-image: linear-gradient(to right, var(--azul), var(--lilás));
-    transition: ;
+    color: white;
+    background-color: var(--azul);
+    transition-duration: .7s;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.621);
 }
