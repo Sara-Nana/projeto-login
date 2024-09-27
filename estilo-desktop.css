@@ -44,8 +44,8 @@
         width: 55%;
     }
     div input {
-        transform: translateY(1px);
         margin: 6px 0px;
+        transform: translateY(1px);
     }
     #imagem  {
         float: right;
